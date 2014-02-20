@@ -11,6 +11,9 @@ Reduces a geometry to a set of points comprising a simplified perimeter and inte
 
 
 Example:
+
+![pointify example](https://raw.github.com/bfs/pointifex/master/images/pointify.png)
+
 ```sql
 -- return a set of points
 select pointify_geom(the_geom,20) from some_table;
@@ -27,6 +30,10 @@ select st_asgeojson(st_collect(g)) from (select pointify_geom(the_geom,20) as g 
 Chops up a geometry into "size_in_meters" squares, returning a set of geometries contained within the boundaries.
 
 Example:
+
+![gridify example](https://raw.github.com/bfs/pointifex/master/images/gridify.png)
+
+
 ```sql
 
 -- return a set of 20m square geometries (or intersecting subset) inside the_geom 
