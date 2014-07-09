@@ -1,6 +1,12 @@
 # Pointifex
 
-Postgis functions so ummm... pointy and metric, make you wanna slap yo pope (and Neal Stephenson). 
+A set of postgis functions to manipulate, subdivide, and pointify geometries...
+
+All so that you can answer the all important question:
+
+Does the pope shit in the woods?
+
+If you're snapping to node on exterior coordinates, you wouldn't know it.
 
 ## 
 
