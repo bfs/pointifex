@@ -19,5 +19,5 @@ zone:=floor((ST_X(geomgeog)+180)/6)+1;
  
 RETURN zone+pref;
 END;
-$body$
+$BODY$
   LANGUAGE 'plpgsql' IMMUTABLE;
